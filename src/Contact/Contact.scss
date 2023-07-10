@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+icons-container {
+  color: #ffffff;
+}
+
+form {
+  width: 50%;
+  min-width: 500px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+
+  label,
+  input {
+    margin-bottom: 25px;
+  }
+
+  label,
+  button {
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+
+  input {
+    height: 35px;
+    font-size: 20px;
+  }
+
+  button{
+    width: 250px;
+    margin: 0 auto;
+    z-index: 1;
+  }
+}

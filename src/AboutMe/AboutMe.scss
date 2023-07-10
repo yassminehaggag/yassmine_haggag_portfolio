@@ -1,0 +1,13 @@
+.about {
+  grid-template-columns: 1fr;
+}
+.about-text {
+  text-align: left !important;
+}
+
+.about-p{
+    width: 75%;
+    min-width: 450px;
+    font-size: 25px !important;
+    margin: 30px auto;
+}

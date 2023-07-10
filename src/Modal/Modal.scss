@@ -1,0 +1,15 @@
+.modalContainer {
+  position: absolute;
+  top: 25%;
+  left: 12.5%;
+  background-color: red;
+  width: 75%;
+  margin: 0 auto;
+  justify-self: center;
+
+  button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+}

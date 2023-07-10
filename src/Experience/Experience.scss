@@ -1,0 +1,31 @@
+.content {
+    margin: 50px 20px;
+}
+.home-text {
+  align-self: center;
+  h1 {
+    color: #fff;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media (max-width: 1169px) {
+  .home-text {
+    h1 {
+      text-align: left;
+    }
+  }
+}
+
+.experience-icon {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}

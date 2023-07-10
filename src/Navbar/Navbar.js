@@ -35,64 +35,64 @@ function Navbar(props) {
             <Link
               className="nav__link"
               to="/"
-              activeClassName="active-link"
+              activeclassname="active-link"
               onClick={() => closeMenu()}
-              exact
+              exact="true"
             >
               Home
             </Link>
           </li>
-          <li class="menu-item ">
+          <li className="menu-item ">
             <Link
               className="nav__link"
               to="/about-me"
-              activeClassName="active-link"
+              activeclassname="active-link"
               onClick={() => closeMenu()}
-              exact
+              exact="true"
             >
               About me
             </Link>
           </li>
-          <li class="menu-item ">
+          <li className="menu-item ">
             <Link
               className="nav__link"
               to="/projects"
-              activeClassName="active-link"
+              activeclassname="active-link"
               onClick={() => closeMenu()}
-              exact
+              exact="true"
             >
               Projects
             </Link>
           </li>
-          <li class="menu-item ">
+          <li className="menu-item ">
             <Link
               className="nav__link"
               to="/experience"
-              activeClassName="active-link"
+              activeclassname="active-link"
               onClick={() => closeMenu()}
-              exact
+              exact="true"
             >
               Experience
             </Link>
           </li>
-          <li class="menu-item ">
+          <li className="menu-item ">
             <Link
               className="nav__link"
               to="/certificates"
-              activeClassName="active-link"
+              activeclassname="active-link"
               onClick={() => closeMenu()}
-              exact
+              exact="true"
             >
               Certificates
             </Link>
           </li>
-          {/* <li class="menu-item ">
+          {/* <li className="menu-item ">
             <Link
               className="nav__link"
               to="/contact-me"
               activeClassName="active-link"
               onClick={() => closeMenu()}
-              exact
+              exact="true"
             >
               Contact me
             </Link>
